@@ -9,40 +9,68 @@ body {
 
 /* Navigatiemenu stijlregels */
 header {
-    /* Voeg hier je header-stijlen toe */
+    background-color: #333;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
 }
 
 /* Hero sectie stijlregels */
 #hero {
-    /* Voeg hier je hero-sectie stijlen toe */
+    background-color: #f5f5f5;
+    padding: 2rem;
+    text-align: center;
 }
 
-/* Diensten sectie stijlregels */
-#diensten {
-    /* Voeg hier je diensten-sectie stijlen toe */
+#hero h1 {
+    font-size: 2.5rem;
 }
 
-/* Testimonials sectie stijlregels */
-#testimonials {
-    /* Voeg hier je testimonials-sectie stijlen toe */
+#hero p {
+    font-size: 1.2rem;
 }
 
-/* Anti-Scam Groep sectie stijlregels */
-#anti-scam-groep {
-    /* Voeg hier je Anti-Scam Groep-sectie stijlen toe */
+#hero button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
-/* Over Ons sectie stijlregels */
-#over-ons {
-    /* Voeg hier je Over Ons-sectie stijlen toe */
+/* Sectie stijlregels */
+section {
+    padding: 2rem;
 }
 
-/* Contact sectie stijlregels */
-#contact {
-    /* Voeg hier je contact-sectie stijlen toe */
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Footer stijlregels */
 footer {
-    /* Voeg hier je footer-stijlen toe */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
 }
