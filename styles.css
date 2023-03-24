@@ -125,10 +125,77 @@ section p {
     }
 }
 
-/* Footer stijlregels */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    font-size: 0.8rem;
+/* Contactformulier stijlregels */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    background-color: #FFC107;
+    color: #333;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #e8a000;
+}
+
+/* Responsief ontwerp */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    header nav ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+    }
+
+    .col {
+        flex-basis: calc(50% - 30px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .col {
+        flex-basis: calc(100% - 30px);
+    }
+}
+
