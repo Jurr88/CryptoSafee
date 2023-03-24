@@ -1,0 +1,48 @@
+/* Algemene stijlregels */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigatiemenu stijlregels */
+header {
+    /* Voeg hier je header-stijlen toe */
+}
+
+/* Hero sectie stijlregels */
+#hero {
+    /* Voeg hier je hero-sectie stijlen toe */
+}
+
+/* Diensten sectie stijlregels */
+#diensten {
+    /* Voeg hier je diensten-sectie stijlen toe */
+}
+
+/* Testimonials sectie stijlregels */
+#testimonials {
+    /* Voeg hier je testimonials-sectie stijlen toe */
+}
+
+/* Anti-Scam Groep sectie stijlregels */
+#anti-scam-groep {
+    /* Voeg hier je Anti-Scam Groep-sectie stijlen toe */
+}
+
+/* Over Ons sectie stijlregels */
+#over-ons {
+    /* Voeg hier je Over Ons-sectie stijlen toe */
+}
+
+/* Contact sectie stijlregels */
+#contact {
+    /* Voeg hier je contact-sectie stijlen toe */
+}
+
+/* Footer stijlregels */
+footer {
+    /* Voeg hier je footer-stijlen toe */
+}
